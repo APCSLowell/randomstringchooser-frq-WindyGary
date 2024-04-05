@@ -19,7 +19,7 @@ public class RandomStringChooser
     }
     
     int random = (int)(Math.random() * result.size());
-    int temp = result.get(random);
+    String temp = result.get(random);
     result.remove(random);
     return temp;
   }
